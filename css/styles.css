@@ -1,11 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: beige;
-
+    background-image: url("../img/chainlink.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .animal {
     font-style: italic;
+    
 }
 
 .dog {
@@ -16,6 +18,8 @@ body {
     margin: auto;
     padding: 6px;
     margin-bottom: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 h2 {
@@ -31,3 +35,13 @@ h1 {
 p {
     text-align: center;
 }
+
+.dog p {
+    text-align: left;
+}
+
+.dog img {box-shadow: 2px 2px 2px gray;
+}
+
+
+
